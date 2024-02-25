@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <script src="https://kit.fontawesome.com/f070526115.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock-Paper-Scissor</h1>
+    <div class="game">
+        <div><button><i class="fa-regular fa-hand-back-fist fa-5x"></i></button></div>
+        <div><button><i class="fa-regular fa-hand fa-5x"></i></button></div>
+        <div><button><i class="fa-solid fa-scissors fa-5x"></i></button></div>
+    </div>
+
+   <div class="bigBox">
+    <div class="box">
+        <div class="common">
+            <!-- <i class="fa-solid fa-person fa-5x"></i> -->
+            <img class="imag" src="reyshika.png" alt="">
+            <h3 class="yourPick hide">rock</h3>
+        </div>
+        <div class="common">
+            <i class="fa-solid fa-robot fa-5x"></i>
+            <h3 class="computerPick hide">paper</h3>
+        </div>
+       </div>
+   </div>
+
+   <audio id="myAudio">
+    <source src="audio_file.mp3" type="audio/mpeg">
+  </audio>
+
+   <h2 class="hide">You win</h2>
+
+    <script src="app.js"></script>
+</body>
+</html>
