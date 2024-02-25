@@ -41,7 +41,7 @@ function checkWInner(button,index,randNum){
 function showWinner(result,index,randNum){
     if(result==true){
         win.style.color="green";
-        win.innerText="Congratulation!! You Win";
+        win.innerText="Congratulation!! You Win and Happy BirthDay Reshika";
         audio.play();
         win.classList.remove("hide");
         displayPick(index,randNum);
